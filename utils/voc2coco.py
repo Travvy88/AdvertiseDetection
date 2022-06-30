@@ -1,3 +1,5 @@
+""" Модифицированный скрипт отсюда: https://github.com/yukkyo/voc2coco """
+
 import os
 import argparse
 import json
@@ -5,12 +7,13 @@ import xml.etree.ElementTree as ET
 from typing import Dict, List
 from tqdm import tqdm
 import re
-
+import html
 
 def get_label2id(labels_path: str) -> Dict[str, int]:
     """id is 1 start"""
     with open(labels_path, 'r') as f:
-        labels_str = f.read().split()
+        labels_str = f.read()
+        labels_str = html.unescape(labels_str).split('\n')[:-1]
     labels_ids = list(range(1, len(labels_str)+1))
     return dict(zip(labels_str, labels_ids))
 
@@ -28,7 +31,7 @@ def get_annpaths(ann_dir_path: str = None,
     # If use annotaion ids list
     ext_with_dot = '.' + ext if ext != '' else ''
     with open(ann_ids_path, 'r') as f:
-        ann_ids = f.read().split()
+        ann_ids = f.read().split()[:-1]
     ann_paths = [os.path.join(ann_dir_path, aid+ext_with_dot) for aid in ann_ids]
     return ann_paths
 
@@ -39,6 +42,7 @@ def get_image_info(annotation_root, extract_num_from_imgid=True):
         filename = annotation_root.findtext('filename')
     else:
         filename = os.path.basename(path)
+        filename = filename.replace('\\', '/')
     img_name = os.path.basename(filename)
     img_id = os.path.splitext(img_name)[0]
     if extract_num_from_imgid and isinstance(img_id, str):

@@ -23,7 +23,10 @@ def add_path_to_xml(path):
     path_to_jpg = os.path.join(folder, brand,  filename + '.jpg')
 
     root = tree.getroot()
-    path_elem = ET.SubElement(root, 'path')
-    path_elem.text = path_to_jpg
-
+    paths = root.findall(".//path")
+    if len(paths) == 0:
+        path_elem = ET.SubElement(root, 'path')
+        path_elem.text = path_to_jpg
+    else:
+        paths[0].text = path_to_jpg
     tree.write(path)

@@ -13,7 +13,7 @@ def change_to_one_class(path, label='logo'):
 
 
 def add_path_to_xml(path):
-    # добавляет путь к фото в xml файл
+    # добавляет путь к фото в xml файл: ктуально, когда фото лежат не в одной папке, а  разных
     tree = ET.parse(path)
 
     list_path = path.split('/')

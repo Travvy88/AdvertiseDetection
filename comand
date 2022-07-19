@@ -1,0 +1,9 @@
+
+    python test_video.py ^
+    test_videos/вкусно_и_точка.mp4 ^
+    out.txt ^
+    --render_path out.mp4 ^
+    --fps 5 ^
+    --model "models/yolov3_mmdet/cfg.py" ^
+    --weights "models/yolov3_mmdet/epoch_12.pth" ^
+    --batch_size 100

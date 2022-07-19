@@ -1,1 +1,4 @@
 data
+mmdetection
+*.mp4
+*.pth

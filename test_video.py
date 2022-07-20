@@ -56,6 +56,7 @@ def process_video(video_path, new_fps, model, batch_size, render_path):
                 batch.append(frame)
                 if len(batch) == batch_size:  # на инференс отправляем только готовый батч
                     result = inference_detector(model, batch)
+                    # TODO save bboxes to file
                     if render_path:
                         for i in range(len(batch)):
                             frame = model.show_result(batch[i], result[i])
@@ -67,11 +68,13 @@ def process_video(video_path, new_fps, model, batch_size, render_path):
 
     result = inference_detector(model, batch)
     if render_path:
+        # TODO save bboxes to file
         for i in range(len(batch)):
             frame = model.show_result(batch[i], result[i])
             video_out.write(frame)
 
-    video_out.release()
+    if render_path:
+        video_out.release()
     video.release()
 
 

@@ -1,4 +1,5 @@
 data
 mmdetection
+talisman
 *.mp4
 *.pth

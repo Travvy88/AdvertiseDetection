@@ -212,5 +212,6 @@ evaluation = dict(interval=5, metric='bbox')
 find_unused_parameters = True
 work_dir = './models/yolov3_mmdet/logs'
 seed = 0
-gpu_ids = range(0, 1)
+gpu_ids = [0]
 device = 'cuda'
+auto_resume = False

@@ -1,4 +1,4 @@
-checkpoint_config = dict(interval=5)
+checkpoint_config = dict(interval=1)
 log_config = dict(
     interval=100,
     hooks=[dict(type='TextLoggerHook'),
@@ -9,7 +9,7 @@ log_level = 'INFO'
 load_from = 'models/yolov3_mmdet/yolov3_mobilenetv2_mstrain-416_300e_coco_20210718_010823-f68a07b3.pth'
 resume_from = None
 workflow = [('train', 1)]
-opencv_num_threads = 0
+opencv_num_threads = 2
 mp_start_method = 'fork'
 auto_scale_lr = dict(enable=False, base_batch_size=192)
 model = dict(
@@ -68,7 +68,7 @@ model = dict(
         nms=dict(type='nms', iou_threshold=0.45),
         max_per_img=100))
 dataset_type = 'CocoDataset'
-data_root = 'data/coco/'
+data_root = 'data/'
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 train_pipeline = [
@@ -147,7 +147,7 @@ data = dict(
                 dict(type='DefaultFormatBundle'),
                 dict(type='Collect', keys=['img', 'gt_bboxes', 'gt_labels'])
             ],
-            data_root='data/openlogo_coco/',
+            data_root='openlogo_coco/',
             classes=['logo'])),
     val=dict(
         type='CocoDataset',
@@ -172,7 +172,7 @@ data = dict(
                     dict(type='Collect', keys=['img'])
                 ])
         ],
-        data_root='data/openlogo_coco/',
+        data_root='openlogo_coco/',
         classes=['logo']),
     test=dict(
         type='CocoDataset',
@@ -197,20 +197,15 @@ data = dict(
                     dict(type='Collect', keys=['img'])
                 ])
         ],
-        data_root='data/openlogo_coco/',
+        data_root='openlogo_coco/',
         classes=['logo']))
 optimizer = dict(type='Adam')
-optimizer_config = dict(grad_clip=dict(max_norm=35, norm_type=2))
-lr_config = dict(
-    policy='step',
-    warmup=None,
-    warmup_iters=4000,
-    warmup_ratio=0.0001,
-    step=[24, 28])
+optimizer_config = None
+lr_config = None
 runner = dict(type='EpochBasedRunner', max_epochs=100)
 evaluation = dict(interval=5, metric='bbox')
 find_unused_parameters = True
 work_dir = './models/yolov3_mmdet/logs'
 seed = 0
-gpu_ids = range(0, 1)
+gpu_ids = [0]
 device = 'cuda'

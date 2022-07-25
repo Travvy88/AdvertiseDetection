@@ -1,5 +1,13 @@
 # AdvertiseDetection
 
-video 45 sec, batch size 100, fps 5, gpu gtx1050ti, cpu i7-7700hq
-yolov3 - 1 min 10 sec
-yolox-tiny - 1 min 2 sec
+Параметры тестирования:
+- Видео 45 секунд
+- batch size 100
+- На выход 5 fps
+- GPU GTX1050ti
+- CPU i7-7700HQ
+
+| model      | mAP@0.5   | mAP@0.5:0.5:0.95 | time      |
+|------------|-----------|------------------|-----------|
+| YOLOv3     | 0.582     | 0.325            | 1m 10s    |
+| YOLOX-tiny | **0.669** | **0.456**        | **1m 5s** |

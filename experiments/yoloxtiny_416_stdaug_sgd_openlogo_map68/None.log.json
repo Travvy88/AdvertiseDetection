@@ -1,0 +1,228 @@
+{"hook_msgs": {}}
+{"hook_msgs": {}}
+{"hook_msgs": {}}
+{"hook_msgs": {}}
+{"hook_msgs": {}}
+{"mode": "train", "epoch": 1, "iter": 587, "lr": 0.0001, "memory": 5931, "data_time": 0.29571, "loss_cls": 0.6965, "loss_bbox": 2.42637, "loss_obj": 4.62426, "loss": 7.74712, "time": 0.55784}
+{"mode": "train", "epoch": 2, "iter": 587, "lr": 0.0009, "memory": 5941, "data_time": 0.30879, "loss_cls": 0.5719, "loss_bbox": 2.22756, "loss_obj": 2.67412, "loss": 5.47358, "time": 0.55817}
+{"mode": "train", "epoch": 3, "iter": 587, "lr": 0.0025, "memory": 5945, "data_time": 0.29988, "loss_cls": 0.58724, "loss_bbox": 2.35948, "loss_obj": 2.75847, "loss": 5.70519, "time": 0.56438}
+{"mode": "train", "epoch": 4, "iter": 587, "lr": 0.0049, "memory": 5945, "data_time": 0.32394, "loss_cls": 0.59766, "loss_bbox": 2.46248, "loss_obj": 2.79268, "loss": 5.85282, "time": 0.55529}
+{"mode": "train", "epoch": 5, "iter": 587, "lr": 0.0081, "memory": 5956, "data_time": 0.28985, "loss_cls": 0.59812, "loss_bbox": 2.46885, "loss_obj": 2.81607, "loss": 5.88304, "time": 0.55614}
+{"mode": "train", "epoch": 6, "iter": 587, "lr": 0.01, "memory": 5956, "data_time": 0.28892, "loss_cls": 0.59628, "loss_bbox": 2.46006, "loss_obj": 2.77076, "loss": 5.8271, "time": 0.56051}
+{"mode": "train", "epoch": 7, "iter": 587, "lr": 0.00999, "memory": 5956, "data_time": 0.31077, "loss_cls": 0.5869, "loss_bbox": 2.40233, "loss_obj": 2.62228, "loss": 5.61151, "time": 0.55885}
+{"mode": "train", "epoch": 8, "iter": 587, "lr": 0.00998, "memory": 5956, "data_time": 0.30789, "loss_cls": 0.57858, "loss_bbox": 2.34395, "loss_obj": 2.51647, "loss": 5.439, "time": 0.56366}
+{"mode": "train", "epoch": 9, "iter": 587, "lr": 0.00996, "memory": 5956, "data_time": 0.30619, "loss_cls": 0.5722, "loss_bbox": 2.29582, "loss_obj": 2.44324, "loss": 5.31126, "time": 0.56204}
+{"mode": "train", "epoch": 10, "iter": 587, "lr": 0.00993, "memory": 5956, "data_time": 0.32144, "loss_cls": 0.56858, "loss_bbox": 2.27117, "loss_obj": 2.37578, "loss": 5.21553, "time": 0.56655}
+{"mode": "val", "epoch": 10, "iter": 8331, "lr": 0.00991, "bbox_mAP": 0.289, "bbox_mAP_50": 0.527, "bbox_mAP_75": 0.291, "bbox_mAP_s": 0.13, "bbox_mAP_m": 0.28, "bbox_mAP_l": 0.414, "bbox_mAP_copypaste": "0.289 0.527 0.291 0.130 0.280 0.414"}
+{"mode": "train", "epoch": 11, "iter": 587, "lr": 0.00989, "memory": 5956, "data_time": 0.31028, "loss_cls": 0.56688, "loss_bbox": 2.2572, "loss_obj": 2.36144, "loss": 5.18552, "time": 0.56533}
+{"mode": "train", "epoch": 12, "iter": 587, "lr": 0.00985, "memory": 5956, "data_time": 0.30569, "loss_cls": 0.56355, "loss_bbox": 2.23567, "loss_obj": 2.3176, "loss": 5.11682, "time": 0.56148}
+{"mode": "train", "epoch": 13, "iter": 587, "lr": 0.0098, "memory": 6000, "data_time": 0.30477, "loss_cls": 0.56129, "loss_bbox": 2.21907, "loss_obj": 2.27648, "loss": 5.05683, "time": 0.56391}
+{"mode": "train", "epoch": 14, "iter": 587, "lr": 0.00974, "memory": 6000, "data_time": 0.30162, "loss_cls": 0.55998, "loss_bbox": 2.21262, "loss_obj": 2.2562, "loss": 5.0288, "time": 0.55984}
+{"mode": "train", "epoch": 15, "iter": 587, "lr": 0.00967, "memory": 6000, "data_time": 0.32787, "loss_cls": 0.55932, "loss_bbox": 2.21417, "loss_obj": 2.23527, "loss": 5.00875, "time": 0.56962}
+{"mode": "train", "epoch": 16, "iter": 587, "lr": 0.0096, "memory": 6000, "data_time": 0.30205, "loss_cls": 0.55491, "loss_bbox": 2.18126, "loss_obj": 2.20629, "loss": 4.94246, "time": 0.56422}
+{"mode": "train", "epoch": 17, "iter": 587, "lr": 0.00952, "memory": 6000, "data_time": 0.30152, "loss_cls": 0.55521, "loss_bbox": 2.1809, "loss_obj": 2.20648, "loss": 4.94259, "time": 0.56876}
+{"mode": "train", "epoch": 18, "iter": 587, "lr": 0.00944, "memory": 6000, "data_time": 0.31645, "loss_cls": 0.5528, "loss_bbox": 2.1701, "loss_obj": 2.16855, "loss": 4.89145, "time": 0.56184}
+{"mode": "train", "epoch": 19, "iter": 587, "lr": 0.00935, "memory": 6000, "data_time": 0.33358, "loss_cls": 0.55198, "loss_bbox": 2.1695, "loss_obj": 2.15893, "loss": 4.88041, "time": 0.56612}
+{"mode": "train", "epoch": 20, "iter": 587, "lr": 0.00925, "memory": 6000, "data_time": 0.30755, "loss_cls": 0.55184, "loss_bbox": 2.15851, "loss_obj": 2.14982, "loss": 4.86017, "time": 0.57235}
+{"mode": "val", "epoch": 20, "iter": 8331, "lr": 0.0092, "bbox_mAP": 0.338, "bbox_mAP_50": 0.578, "bbox_mAP_75": 0.358, "bbox_mAP_s": 0.157, "bbox_mAP_m": 0.323, "bbox_mAP_l": 0.484, "bbox_mAP_copypaste": "0.338 0.578 0.358 0.157 0.323 0.484"}
+{"mode": "train", "epoch": 21, "iter": 587, "lr": 0.00915, "memory": 6000, "data_time": 0.31329, "loss_cls": 0.5511, "loss_bbox": 2.16097, "loss_obj": 2.14905, "loss": 4.86111, "time": 0.56342}
+{"mode": "train", "epoch": 22, "iter": 587, "lr": 0.00904, "memory": 6000, "data_time": 0.31612, "loss_cls": 0.55217, "loss_bbox": 2.16328, "loss_obj": 2.14589, "loss": 4.86134, "time": 0.56415}
+{"mode": "train", "epoch": 23, "iter": 587, "lr": 0.00892, "memory": 6000, "data_time": 0.32228, "loss_cls": 0.54878, "loss_bbox": 2.15042, "loss_obj": 2.12549, "loss": 4.8247, "time": 0.5635}
+{"mode": "train", "epoch": 24, "iter": 587, "lr": 0.0088, "memory": 6000, "data_time": 0.31682, "loss_cls": 0.54995, "loss_bbox": 2.15455, "loss_obj": 2.12263, "loss": 4.82713, "time": 0.56503}
+{"mode": "train", "epoch": 25, "iter": 587, "lr": 0.00867, "memory": 6000, "data_time": 0.32044, "loss_cls": 0.54822, "loss_bbox": 2.14161, "loss_obj": 2.09091, "loss": 4.78074, "time": 0.5705}
+{"mode": "train", "epoch": 26, "iter": 587, "lr": 0.00854, "memory": 6000, "data_time": 0.30483, "loss_cls": 0.5428, "loss_bbox": 2.10083, "loss_obj": 2.06746, "loss": 4.7111, "time": 0.57791}
+{"mode": "train", "epoch": 27, "iter": 587, "lr": 0.00841, "memory": 6000, "data_time": 0.3093, "loss_cls": 0.54315, "loss_bbox": 2.11367, "loss_obj": 2.06156, "loss": 4.71837, "time": 0.56224}
+{"mode": "train", "epoch": 28, "iter": 587, "lr": 0.00826, "memory": 6000, "data_time": 0.31078, "loss_cls": 0.54099, "loss_bbox": 2.09222, "loss_obj": 2.04034, "loss": 4.67355, "time": 0.5732}
+{"mode": "train", "epoch": 29, "iter": 587, "lr": 0.00812, "memory": 6000, "data_time": 0.29654, "loss_cls": 0.53951, "loss_bbox": 2.07826, "loss_obj": 2.0133, "loss": 4.63107, "time": 0.57105}
+{"mode": "train", "epoch": 30, "iter": 587, "lr": 0.00797, "memory": 6000, "data_time": 0.3046, "loss_cls": 0.54104, "loss_bbox": 2.09496, "loss_obj": 2.02849, "loss": 4.66449, "time": 0.56465}
+{"mode": "val", "epoch": 30, "iter": 8331, "lr": 0.00789, "bbox_mAP": 0.355, "bbox_mAP_50": 0.599, "bbox_mAP_75": 0.381, "bbox_mAP_s": 0.168, "bbox_mAP_m": 0.341, "bbox_mAP_l": 0.505, "bbox_mAP_copypaste": "0.355 0.599 0.381 0.168 0.341 0.505"}
+{"mode": "train", "epoch": 31, "iter": 587, "lr": 0.00781, "memory": 6010, "data_time": 0.30811, "loss_cls": 0.53899, "loss_bbox": 2.08324, "loss_obj": 2.05142, "loss": 4.67366, "time": 0.56095}
+{"mode": "train", "epoch": 32, "iter": 587, "lr": 0.00765, "memory": 6010, "data_time": 0.28945, "loss_cls": 0.53628, "loss_bbox": 2.06458, "loss_obj": 1.98801, "loss": 4.58887, "time": 0.55324}
+{"mode": "train", "epoch": 33, "iter": 587, "lr": 0.00749, "memory": 6010, "data_time": 0.31217, "loss_cls": 0.5354, "loss_bbox": 2.0593, "loss_obj": 1.97546, "loss": 4.57016, "time": 0.57172}
+{"mode": "train", "epoch": 34, "iter": 587, "lr": 0.00732, "memory": 6010, "data_time": 0.30824, "loss_cls": 0.53825, "loss_bbox": 2.07603, "loss_obj": 1.96702, "loss": 4.58131, "time": 0.55781}
+{"mode": "train", "epoch": 35, "iter": 587, "lr": 0.00715, "memory": 6010, "data_time": 0.29507, "loss_cls": 0.53332, "loss_bbox": 2.04267, "loss_obj": 1.96328, "loss": 4.53927, "time": 0.56204}
+{"mode": "train", "epoch": 36, "iter": 587, "lr": 0.00698, "memory": 6010, "data_time": 0.31346, "loss_cls": 0.53135, "loss_bbox": 2.03596, "loss_obj": 1.94118, "loss": 4.50849, "time": 0.56713}
+{"mode": "train", "epoch": 37, "iter": 587, "lr": 0.00681, "memory": 6010, "data_time": 0.31828, "loss_cls": 0.53462, "loss_bbox": 2.05844, "loss_obj": 1.95103, "loss": 4.54409, "time": 0.56562}
+{"mode": "train", "epoch": 38, "iter": 587, "lr": 0.00663, "memory": 6010, "data_time": 0.3045, "loss_cls": 0.53318, "loss_bbox": 2.04455, "loss_obj": 1.9243, "loss": 4.50202, "time": 0.56461}
+{"mode": "train", "epoch": 39, "iter": 587, "lr": 0.00645, "memory": 6010, "data_time": 0.32394, "loss_cls": 0.53046, "loss_bbox": 2.03304, "loss_obj": 1.90803, "loss": 4.47153, "time": 0.56496}
+{"mode": "train", "epoch": 40, "iter": 587, "lr": 0.00627, "memory": 6010, "data_time": 0.32227, "loss_cls": 0.52797, "loss_bbox": 2.01202, "loss_obj": 1.89219, "loss": 4.43219, "time": 0.57043}
+{"mode": "val", "epoch": 40, "iter": 8331, "lr": 0.00618, "bbox_mAP": 0.372, "bbox_mAP_50": 0.617, "bbox_mAP_75": 0.401, "bbox_mAP_s": 0.18, "bbox_mAP_m": 0.358, "bbox_mAP_l": 0.523, "bbox_mAP_copypaste": "0.372 0.617 0.401 0.180 0.358 0.523"}
+{"mode": "train", "epoch": 41, "iter": 587, "lr": 0.00608, "memory": 6010, "data_time": 0.3097, "loss_cls": 0.52901, "loss_bbox": 2.02395, "loss_obj": 1.89591, "loss": 4.44887, "time": 0.5582}
+{"mode": "train", "epoch": 42, "iter": 587, "lr": 0.0059, "memory": 6010, "data_time": 0.32189, "loss_cls": 0.52569, "loss_bbox": 2.0032, "loss_obj": 1.89246, "loss": 4.42134, "time": 0.56716}
+{"mode": "train", "epoch": 43, "iter": 587, "lr": 0.00572, "memory": 6010, "data_time": 0.30715, "loss_cls": 0.5258, "loss_bbox": 2.00423, "loss_obj": 1.8782, "loss": 4.40823, "time": 0.56098}
+{"mode": "train", "epoch": 44, "iter": 587, "lr": 0.00553, "memory": 6010, "data_time": 0.30019, "loss_cls": 0.52437, "loss_bbox": 1.99508, "loss_obj": 1.87175, "loss": 4.3912, "time": 0.55955}
+{"mode": "train", "epoch": 45, "iter": 587, "lr": 0.00534, "memory": 6010, "data_time": 0.30196, "loss_cls": 0.52124, "loss_bbox": 1.97342, "loss_obj": 1.82171, "loss": 4.31638, "time": 0.56086}
+{"mode": "train", "epoch": 46, "iter": 587, "lr": 0.00516, "memory": 6010, "data_time": 0.31479, "loss_cls": 0.52033, "loss_bbox": 1.97168, "loss_obj": 1.81945, "loss": 4.31146, "time": 0.56445}
+{"mode": "train", "epoch": 47, "iter": 587, "lr": 0.00497, "memory": 6010, "data_time": 0.31128, "loss_cls": 0.5186, "loss_bbox": 1.95473, "loss_obj": 1.80365, "loss": 4.27698, "time": 0.56476}
+{"mode": "train", "epoch": 48, "iter": 587, "lr": 0.00478, "memory": 6010, "data_time": 0.31683, "loss_cls": 0.51849, "loss_bbox": 1.96025, "loss_obj": 1.79898, "loss": 4.27772, "time": 0.55999}
+{"mode": "train", "epoch": 49, "iter": 587, "lr": 0.0046, "memory": 6010, "data_time": 0.32812, "loss_cls": 0.51691, "loss_bbox": 1.95111, "loss_obj": 1.76664, "loss": 4.23466, "time": 0.56884}
+{"mode": "train", "epoch": 50, "iter": 587, "lr": 0.00441, "memory": 6010, "data_time": 0.31068, "loss_cls": 0.51402, "loss_bbox": 1.93409, "loss_obj": 1.73868, "loss": 4.1868, "time": 0.56329}
+{"mode": "val", "epoch": 50, "iter": 8331, "lr": 0.00432, "bbox_mAP": 0.389, "bbox_mAP_50": 0.634, "bbox_mAP_75": 0.426, "bbox_mAP_s": 0.189, "bbox_mAP_m": 0.376, "bbox_mAP_l": 0.544, "bbox_mAP_copypaste": "0.389 0.634 0.426 0.189 0.376 0.544"}
+{"mode": "train", "epoch": 51, "iter": 587, "lr": 0.00423, "memory": 6013, "data_time": 0.32424, "loss_cls": 0.5133, "loss_bbox": 1.92975, "loss_obj": 1.75937, "loss": 4.20242, "time": 0.56779}
+{"mode": "train", "epoch": 52, "iter": 587, "lr": 0.00405, "memory": 6013, "data_time": 0.3093, "loss_cls": 0.51234, "loss_bbox": 1.92661, "loss_obj": 1.73291, "loss": 4.17186, "time": 0.55724}
+{"mode": "train", "epoch": 53, "iter": 587, "lr": 0.00387, "memory": 6013, "data_time": 0.32274, "loss_cls": 0.51122, "loss_bbox": 1.92226, "loss_obj": 1.72116, "loss": 4.15464, "time": 0.56199}
+{"mode": "train", "epoch": 54, "iter": 587, "lr": 0.00369, "memory": 6013, "data_time": 0.2833, "loss_cls": 0.50757, "loss_bbox": 1.89376, "loss_obj": 1.71501, "loss": 4.11634, "time": 0.56668}
+{"mode": "train", "epoch": 55, "iter": 587, "lr": 0.00352, "memory": 6013, "data_time": 0.31061, "loss_cls": 0.50865, "loss_bbox": 1.90322, "loss_obj": 1.70412, "loss": 4.11599, "time": 0.55784}
+{"mode": "train", "epoch": 56, "iter": 587, "lr": 0.00335, "memory": 6013, "data_time": 0.31316, "loss_cls": 0.50563, "loss_bbox": 1.88227, "loss_obj": 1.67856, "loss": 4.06647, "time": 0.56544}
+{"mode": "train", "epoch": 57, "iter": 587, "lr": 0.00318, "memory": 6013, "data_time": 0.28648, "loss_cls": 0.50493, "loss_bbox": 1.88165, "loss_obj": 1.68371, "loss": 4.0703, "time": 0.5581}
+{"mode": "train", "epoch": 58, "iter": 587, "lr": 0.00301, "memory": 6013, "data_time": 0.30482, "loss_cls": 0.49909, "loss_bbox": 1.84719, "loss_obj": 1.63956, "loss": 3.98584, "time": 0.56157}
+{"mode": "train", "epoch": 59, "iter": 587, "lr": 0.00285, "memory": 6013, "data_time": 0.30084, "loss_cls": 0.5012, "loss_bbox": 1.85708, "loss_obj": 1.6234, "loss": 3.98168, "time": 0.5666}
+{"mode": "train", "epoch": 60, "iter": 587, "lr": 0.00269, "memory": 6013, "data_time": 0.29078, "loss_cls": 0.49886, "loss_bbox": 1.84488, "loss_obj": 1.61426, "loss": 3.95801, "time": 0.56468}
+{"mode": "val", "epoch": 60, "iter": 8331, "lr": 0.00261, "bbox_mAP": 0.403, "bbox_mAP_50": 0.65, "bbox_mAP_75": 0.442, "bbox_mAP_s": 0.196, "bbox_mAP_m": 0.39, "bbox_mAP_l": 0.56, "bbox_mAP_copypaste": "0.403 0.650 0.442 0.196 0.390 0.560"}
+{"mode": "train", "epoch": 61, "iter": 587, "lr": 0.00253, "memory": 6013, "data_time": 0.33027, "loss_cls": 0.50123, "loss_bbox": 1.86579, "loss_obj": 1.60239, "loss": 3.96941, "time": 0.57246}
+{"mode": "train", "epoch": 62, "iter": 587, "lr": 0.00238, "memory": 6013, "data_time": 0.32732, "loss_cls": 0.49746, "loss_bbox": 1.83955, "loss_obj": 1.5797, "loss": 3.91671, "time": 0.56428}
+{"mode": "train", "epoch": 63, "iter": 587, "lr": 0.00224, "memory": 6013, "data_time": 0.31004, "loss_cls": 0.49544, "loss_bbox": 1.82871, "loss_obj": 1.56316, "loss": 3.88732, "time": 0.56534}
+{"mode": "train", "epoch": 64, "iter": 587, "lr": 0.00209, "memory": 6013, "data_time": 0.2904, "loss_cls": 0.48924, "loss_bbox": 1.79082, "loss_obj": 1.5348, "loss": 3.81485, "time": 0.56919}
+{"mode": "train", "epoch": 65, "iter": 587, "lr": 0.00196, "memory": 6013, "data_time": 0.31523, "loss_cls": 0.49015, "loss_bbox": 1.79797, "loss_obj": 1.5414, "loss": 3.82953, "time": 0.57199}
+{"mode": "train", "epoch": 66, "iter": 587, "lr": 0.00183, "memory": 6013, "data_time": 0.30582, "loss_cls": 0.48959, "loss_bbox": 1.79179, "loss_obj": 1.50394, "loss": 3.78532, "time": 0.566}
+{"mode": "train", "epoch": 67, "iter": 587, "lr": 0.0017, "memory": 6013, "data_time": 0.31166, "loss_cls": 0.48679, "loss_bbox": 1.77646, "loss_obj": 1.49061, "loss": 3.75385, "time": 0.5698}
+{"mode": "train", "epoch": 68, "iter": 587, "lr": 0.00158, "memory": 6013, "data_time": 0.32109, "loss_cls": 0.48618, "loss_bbox": 1.78149, "loss_obj": 1.49901, "loss": 3.76668, "time": 0.5577}
+{"mode": "train", "epoch": 69, "iter": 587, "lr": 0.00146, "memory": 6013, "data_time": 0.30769, "loss_cls": 0.48329, "loss_bbox": 1.76027, "loss_obj": 1.47459, "loss": 3.71816, "time": 0.56885}
+{"mode": "train", "epoch": 70, "iter": 587, "lr": 0.00135, "memory": 6013, "data_time": 0.30732, "loss_cls": 0.48228, "loss_bbox": 1.75299, "loss_obj": 1.44054, "loss": 3.67581, "time": 0.57215}
+{"mode": "val", "epoch": 70, "iter": 8331, "lr": 0.0013, "bbox_mAP": 0.415, "bbox_mAP_50": 0.662, "bbox_mAP_75": 0.461, "bbox_mAP_s": 0.203, "bbox_mAP_m": 0.405, "bbox_mAP_l": 0.573, "bbox_mAP_copypaste": "0.415 0.662 0.461 0.203 0.405 0.573"}
+{"mode": "train", "epoch": 71, "iter": 587, "lr": 0.00125, "memory": 6013, "data_time": 0.32197, "loss_cls": 0.48211, "loss_bbox": 1.75263, "loss_obj": 1.45266, "loss": 3.68739, "time": 0.57534}
+{"mode": "train", "epoch": 72, "iter": 587, "lr": 0.00115, "memory": 6013, "data_time": 0.31772, "loss_cls": 0.48105, "loss_bbox": 1.75044, "loss_obj": 1.42463, "loss": 3.65612, "time": 0.56713}
+{"mode": "train", "epoch": 73, "iter": 587, "lr": 0.00106, "memory": 6013, "data_time": 0.28582, "loss_cls": 0.4756, "loss_bbox": 1.71681, "loss_obj": 1.3878, "loss": 3.58021, "time": 0.56531}
+{"mode": "train", "epoch": 74, "iter": 587, "lr": 0.00098, "memory": 6013, "data_time": 0.32211, "loss_cls": 0.47819, "loss_bbox": 1.73379, "loss_obj": 1.3959, "loss": 3.60788, "time": 0.56486}
+{"mode": "train", "epoch": 75, "iter": 587, "lr": 0.0009, "memory": 6013, "data_time": 0.30762, "loss_cls": 0.47797, "loss_bbox": 1.73517, "loss_obj": 1.41784, "loss": 3.63098, "time": 0.56155}
+{"mode": "train", "epoch": 76, "iter": 587, "lr": 0.00083, "memory": 6013, "data_time": 0.3004, "loss_cls": 0.47157, "loss_bbox": 1.69755, "loss_obj": 1.35526, "loss": 3.52438, "time": 0.5601}
+{"mode": "train", "epoch": 77, "iter": 587, "lr": 0.00076, "memory": 6013, "data_time": 0.31433, "loss_cls": 0.47318, "loss_bbox": 1.70452, "loss_obj": 1.364, "loss": 3.5417, "time": 0.57032}
+{"mode": "train", "epoch": 78, "iter": 587, "lr": 0.0007, "memory": 6013, "data_time": 0.28954, "loss_cls": 0.46897, "loss_bbox": 1.68395, "loss_obj": 1.31944, "loss": 3.47236, "time": 0.56813}
+{"mode": "train", "epoch": 79, "iter": 587, "lr": 0.00065, "memory": 6013, "data_time": 0.29559, "loss_cls": 0.47206, "loss_bbox": 1.70166, "loss_obj": 1.34123, "loss": 3.51495, "time": 0.5619}
+{"mode": "train", "epoch": 80, "iter": 587, "lr": 0.00061, "memory": 6013, "data_time": 0.30251, "loss_cls": 0.47054, "loss_bbox": 1.69358, "loss_obj": 1.3236, "loss": 3.48773, "time": 0.5595}
+{"mode": "val", "epoch": 80, "iter": 8331, "lr": 0.00059, "bbox_mAP": 0.423, "bbox_mAP_50": 0.667, "bbox_mAP_75": 0.471, "bbox_mAP_s": 0.207, "bbox_mAP_m": 0.412, "bbox_mAP_l": 0.583, "bbox_mAP_copypaste": "0.423 0.667 0.471 0.207 0.412 0.583"}
+{"mode": "train", "epoch": 81, "iter": 587, "lr": 0.00057, "memory": 6013, "data_time": 0.28924, "loss_cls": 0.46699, "loss_bbox": 1.67125, "loss_obj": 1.31754, "loss": 3.45578, "time": 0.56016}
+{"mode": "train", "epoch": 82, "iter": 587, "lr": 0.00054, "memory": 6013, "data_time": 0.31204, "loss_cls": 0.46977, "loss_bbox": 1.68911, "loss_obj": 1.31075, "loss": 3.46964, "time": 0.57183}
+{"mode": "train", "epoch": 83, "iter": 587, "lr": 0.00052, "memory": 6013, "data_time": 0.30366, "loss_cls": 0.46674, "loss_bbox": 1.67021, "loss_obj": 1.30828, "loss": 3.44523, "time": 0.56705}
+{"mode": "train", "epoch": 84, "iter": 587, "lr": 0.00051, "memory": 6013, "data_time": 0.31188, "loss_cls": 0.46737, "loss_bbox": 1.67996, "loss_obj": 1.30332, "loss": 3.45064, "time": 0.56246}
+{"mode": "train", "epoch": 85, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.06337, "loss_cls": 0.44941, "loss_bbox": 1.56316, "loss_obj": 1.1126, "loss_l1": 0.41277, "loss": 3.53794, "time": 0.32775}
+{"mode": "train", "epoch": 86, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.06539, "loss_cls": 0.43977, "loss_bbox": 1.51073, "loss_obj": 1.03191, "loss_l1": 0.3925, "loss": 3.37491, "time": 0.32986}
+{"mode": "train", "epoch": 87, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.06737, "loss_cls": 0.43556, "loss_bbox": 1.48884, "loss_obj": 0.99309, "loss_l1": 0.38481, "loss": 3.3023, "time": 0.33269}
+{"mode": "train", "epoch": 88, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.07042, "loss_cls": 0.43631, "loss_bbox": 1.4944, "loss_obj": 0.99145, "loss_l1": 0.38144, "loss": 3.3036, "time": 0.32327}
+{"mode": "train", "epoch": 89, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.05645, "loss_cls": 0.43341, "loss_bbox": 1.47736, "loss_obj": 0.96596, "loss_l1": 0.37943, "loss": 3.25615, "time": 0.32549}
+{"mode": "train", "epoch": 90, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.06438, "loss_cls": 0.429, "loss_bbox": 1.45869, "loss_obj": 0.92808, "loss_l1": 0.37108, "loss": 3.18685, "time": 0.3305}
+{"mode": "val", "epoch": 90, "iter": 8331, "lr": 0.0005, "bbox_mAP": 0.443, "bbox_mAP_50": 0.673, "bbox_mAP_75": 0.495, "bbox_mAP_s": 0.214, "bbox_mAP_m": 0.43, "bbox_mAP_l": 0.613, "bbox_mAP_copypaste": "0.443 0.673 0.495 0.214 0.430 0.613"}
+{"mode": "train", "epoch": 91, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.06053, "loss_cls": 0.43141, "loss_bbox": 1.46938, "loss_obj": 0.92823, "loss_l1": 0.37778, "loss": 3.20681, "time": 0.32713}
+{"mode": "train", "epoch": 92, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.06911, "loss_cls": 0.43218, "loss_bbox": 1.47515, "loss_obj": 0.94098, "loss_l1": 0.37705, "loss": 3.22536, "time": 0.33202}
+{"mode": "train", "epoch": 93, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.06342, "loss_cls": 0.42828, "loss_bbox": 1.45576, "loss_obj": 0.91954, "loss_l1": 0.36821, "loss": 3.17179, "time": 0.32475}
+{"mode": "train", "epoch": 94, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.06105, "loss_cls": 0.42685, "loss_bbox": 1.44799, "loss_obj": 0.89826, "loss_l1": 0.36902, "loss": 3.14212, "time": 0.32816}
+{"mode": "train", "epoch": 95, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.05211, "loss_cls": 0.42522, "loss_bbox": 1.4405, "loss_obj": 0.88862, "loss_l1": 0.37258, "loss": 3.12692, "time": 0.34234}
+{"mode": "train", "epoch": 96, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.06598, "loss_cls": 0.42678, "loss_bbox": 1.4468, "loss_obj": 0.89156, "loss_l1": 0.36805, "loss": 3.13318, "time": 0.34933}
+{"mode": "train", "epoch": 97, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.06219, "loss_cls": 0.42421, "loss_bbox": 1.43336, "loss_obj": 0.85505, "loss_l1": 0.36381, "loss": 3.07643, "time": 0.33731}
+{"mode": "train", "epoch": 98, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.07335, "loss_cls": 0.42637, "loss_bbox": 1.44459, "loss_obj": 0.86696, "loss_l1": 0.36493, "loss": 3.10285, "time": 0.33494}
+{"mode": "train", "epoch": 99, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.05746, "loss_cls": 0.42357, "loss_bbox": 1.42955, "loss_obj": 0.85471, "loss_l1": 0.36131, "loss": 3.06915, "time": 0.33497}
+{"mode": "train", "epoch": 100, "iter": 587, "lr": 0.0005, "memory": 6013, "data_time": 0.05822, "loss_cls": 0.42222, "loss_bbox": 1.42347, "loss_obj": 0.85831, "loss_l1": 0.36247, "loss": 3.06647, "time": 0.34533}
+{"mode": "val", "epoch": 100, "iter": 8331, "lr": 0.0005, "bbox_mAP": 0.45, "bbox_mAP_50": 0.67, "bbox_mAP_75": 0.502, "bbox_mAP_s": 0.216, "bbox_mAP_m": 0.435, "bbox_mAP_l": 0.628, "bbox_mAP_copypaste": "0.450 0.670 0.502 0.216 0.435 0.628"}
+{"hook_msgs": {"last_ckpt": "/root/logs/epoch_90.pth", "best_score": 0.443, "best_ckpt": "/root/logs/best_bbox_mAP_epoch_90.pth"}, "epoch": 100, "iter": 117300, "mmcv_version": "1.6.0", "time": "Sat Jul 23 02:36:54 2022", "CLASSES": ["logo"]}
+{"hook_msgs": {"last_ckpt": "/root/logs/epoch_90.pth", "best_score": 0.443, "best_ckpt": "/root/logs/best_bbox_mAP_epoch_90.pth"}, "epoch": 100, "iter": 117300, "mmcv_version": "1.6.0", "time": "Sat Jul 23 02:36:54 2022", "CLASSES": ["logo"]}
+{"hook_msgs": {"last_ckpt": "/root/logs/epoch_90.pth", "best_score": 0.443, "best_ckpt": "/root/logs/best_bbox_mAP_epoch_90.pth"}, "epoch": 100, "iter": 117300, "mmcv_version": "1.6.0", "time": "Sat Jul 23 02:36:54 2022", "CLASSES": ["logo"]}
+{"mode": "train", "epoch": 101, "iter": 587, "lr": 0.00479, "memory": 6013, "data_time": 0.31074, "loss_cls": 0.52572, "loss_bbox": 1.99472, "loss_obj": 1.87082, "loss": 4.39127, "time": 0.56681}
+{"mode": "train", "epoch": 102, "iter": 587, "lr": 0.00471, "memory": 6020, "data_time": 0.32657, "loss_cls": 0.52751, "loss_bbox": 2.01424, "loss_obj": 1.87132, "loss": 4.41307, "time": 0.56944}
+{"mode": "train", "epoch": 103, "iter": 587, "lr": 0.00463, "memory": 6023, "data_time": 0.31634, "loss_cls": 0.51932, "loss_bbox": 1.96225, "loss_obj": 1.79198, "loss": 4.27354, "time": 0.57433}
+{"mode": "train", "epoch": 104, "iter": 587, "lr": 0.00455, "memory": 6023, "data_time": 0.33174, "loss_cls": 0.51992, "loss_bbox": 1.96979, "loss_obj": 1.77702, "loss": 4.26673, "time": 0.55807}
+{"mode": "train", "epoch": 105, "iter": 587, "lr": 0.00447, "memory": 6036, "data_time": 0.29961, "loss_cls": 0.5173, "loss_bbox": 1.94946, "loss_obj": 1.77771, "loss": 4.24447, "time": 0.55948}
+{"mode": "train", "epoch": 106, "iter": 587, "lr": 0.00438, "memory": 6036, "data_time": 0.30661, "loss_cls": 0.51316, "loss_bbox": 1.92635, "loss_obj": 1.72994, "loss": 4.16945, "time": 0.57174}
+{"mode": "train", "epoch": 107, "iter": 587, "lr": 0.0043, "memory": 6036, "data_time": 0.32819, "loss_cls": 0.51522, "loss_bbox": 1.94446, "loss_obj": 1.7356, "loss": 4.19528, "time": 0.5708}
+{"mode": "train", "epoch": 108, "iter": 587, "lr": 0.00422, "memory": 6036, "data_time": 0.32042, "loss_cls": 0.51305, "loss_bbox": 1.9271, "loss_obj": 1.71109, "loss": 4.15124, "time": 0.57008}
+{"mode": "train", "epoch": 109, "iter": 587, "lr": 0.00414, "memory": 6036, "data_time": 0.31512, "loss_cls": 0.51001, "loss_bbox": 1.91062, "loss_obj": 1.69468, "loss": 4.11531, "time": 0.56487}
+{"mode": "train", "epoch": 110, "iter": 587, "lr": 0.00406, "memory": 6036, "data_time": 0.33078, "loss_cls": 0.5102, "loss_bbox": 1.90685, "loss_obj": 1.68467, "loss": 4.10171, "time": 0.57021}
+{"mode": "val", "epoch": 110, "iter": 8331, "lr": 0.00402, "bbox_mAP": 0.432, "bbox_mAP_50": 0.669, "bbox_mAP_75": 0.483, "bbox_mAP_s": 0.212, "bbox_mAP_m": 0.421, "bbox_mAP_l": 0.596, "bbox_mAP_copypaste": "0.432 0.669 0.483 0.212 0.421 0.596"}
+{"mode": "train", "epoch": 111, "iter": 587, "lr": 0.00398, "memory": 6036, "data_time": 0.32088, "loss_cls": 0.51001, "loss_bbox": 1.90764, "loss_obj": 1.67283, "loss": 4.09048, "time": 0.56997}
+{"mode": "train", "epoch": 112, "iter": 587, "lr": 0.0039, "memory": 6036, "data_time": 0.32288, "loss_cls": 0.50831, "loss_bbox": 1.90104, "loss_obj": 1.6647, "loss": 4.07404, "time": 0.57266}
+{"mode": "train", "epoch": 113, "iter": 587, "lr": 0.00382, "memory": 6080, "data_time": 0.31544, "loss_cls": 0.50705, "loss_bbox": 1.89409, "loss_obj": 1.6586, "loss": 4.05974, "time": 0.56832}
+{"mode": "train", "epoch": 114, "iter": 587, "lr": 0.00374, "memory": 6080, "data_time": 0.31305, "loss_cls": 0.50623, "loss_bbox": 1.88904, "loss_obj": 1.63911, "loss": 4.03437, "time": 0.56515}
+{"mode": "train", "epoch": 115, "iter": 587, "lr": 0.00366, "memory": 6080, "data_time": 0.3349, "loss_cls": 0.50862, "loss_bbox": 1.90528, "loss_obj": 1.64209, "loss": 4.056, "time": 0.57058}
+{"mode": "train", "epoch": 116, "iter": 587, "lr": 0.00359, "memory": 6080, "data_time": 0.31162, "loss_cls": 0.5042, "loss_bbox": 1.87385, "loss_obj": 1.6126, "loss": 3.99065, "time": 0.56747}
+{"mode": "train", "epoch": 117, "iter": 587, "lr": 0.00351, "memory": 6080, "data_time": 0.31414, "loss_cls": 0.50542, "loss_bbox": 1.87956, "loss_obj": 1.61254, "loss": 3.99753, "time": 0.57514}
+{"mode": "train", "epoch": 118, "iter": 587, "lr": 0.00343, "memory": 6080, "data_time": 0.33193, "loss_cls": 0.50257, "loss_bbox": 1.86727, "loss_obj": 1.59886, "loss": 3.9687, "time": 0.57153}
+{"mode": "train", "epoch": 119, "iter": 587, "lr": 0.00336, "memory": 6080, "data_time": 0.34369, "loss_cls": 0.50275, "loss_bbox": 1.87614, "loss_obj": 1.60386, "loss": 3.98276, "time": 0.57094}
+{"mode": "train", "epoch": 120, "iter": 587, "lr": 0.00328, "memory": 6080, "data_time": 0.31398, "loss_cls": 0.50169, "loss_bbox": 1.8622, "loss_obj": 1.5752, "loss": 3.93908, "time": 0.5719}
+{"mode": "val", "epoch": 120, "iter": 8331, "lr": 0.00324, "bbox_mAP": 0.424, "bbox_mAP_50": 0.668, "bbox_mAP_75": 0.471, "bbox_mAP_s": 0.209, "bbox_mAP_m": 0.412, "bbox_mAP_l": 0.584, "bbox_mAP_copypaste": "0.424 0.668 0.471 0.209 0.412 0.584"}
+{"mode": "train", "epoch": 121, "iter": 587, "lr": 0.00321, "memory": 6080, "data_time": 0.32177, "loss_cls": 0.50182, "loss_bbox": 1.86377, "loss_obj": 1.59819, "loss": 3.96379, "time": 0.56588}
+{"mode": "train", "epoch": 122, "iter": 587, "lr": 0.00313, "memory": 6080, "data_time": 0.33007, "loss_cls": 0.50348, "loss_bbox": 1.87011, "loss_obj": 1.58763, "loss": 3.96122, "time": 0.57199}
+{"mode": "train", "epoch": 123, "iter": 587, "lr": 0.00306, "memory": 6080, "data_time": 0.33487, "loss_cls": 0.50141, "loss_bbox": 1.86525, "loss_obj": 1.58385, "loss": 3.95051, "time": 0.5699}
+{"mode": "train", "epoch": 124, "iter": 587, "lr": 0.00298, "memory": 6080, "data_time": 0.32905, "loss_cls": 0.50057, "loss_bbox": 1.85964, "loss_obj": 1.57219, "loss": 3.93241, "time": 0.57144}
+{"mode": "train", "epoch": 125, "iter": 587, "lr": 0.00291, "memory": 6080, "data_time": 0.32497, "loss_cls": 0.50168, "loss_bbox": 1.86194, "loss_obj": 1.56384, "loss": 3.92746, "time": 0.56864}
+{"mode": "train", "epoch": 126, "iter": 587, "lr": 0.00284, "memory": 6080, "data_time": 0.30617, "loss_cls": 0.49504, "loss_bbox": 1.8231, "loss_obj": 1.53465, "loss": 3.85278, "time": 0.57186}
+{"mode": "train", "epoch": 127, "iter": 587, "lr": 0.00277, "memory": 6080, "data_time": 0.3174, "loss_cls": 0.49653, "loss_bbox": 1.83894, "loss_obj": 1.53604, "loss": 3.87151, "time": 0.56401}
+{"mode": "train", "epoch": 128, "iter": 587, "lr": 0.0027, "memory": 6080, "data_time": 0.32284, "loss_cls": 0.49332, "loss_bbox": 1.81192, "loss_obj": 1.5107, "loss": 3.81593, "time": 0.5782}
+{"mode": "train", "epoch": 129, "iter": 587, "lr": 0.00263, "memory": 6080, "data_time": 0.30843, "loss_cls": 0.4908, "loss_bbox": 1.79877, "loss_obj": 1.50525, "loss": 3.79482, "time": 0.57616}
+{"mode": "train", "epoch": 130, "iter": 587, "lr": 0.00256, "memory": 6080, "data_time": 0.31229, "loss_cls": 0.49468, "loss_bbox": 1.82333, "loss_obj": 1.50835, "loss": 3.82635, "time": 0.56622}
+{"mode": "val", "epoch": 130, "iter": 8331, "lr": 0.00253, "bbox_mAP": 0.426, "bbox_mAP_50": 0.671, "bbox_mAP_75": 0.474, "bbox_mAP_s": 0.212, "bbox_mAP_m": 0.415, "bbox_mAP_l": 0.585, "bbox_mAP_copypaste": "0.426 0.671 0.474 0.212 0.415 0.585"}
+{"mode": "train", "epoch": 131, "iter": 587, "lr": 0.00249, "memory": 6090, "data_time": 0.32289, "loss_cls": 0.49379, "loss_bbox": 1.81902, "loss_obj": 1.52074, "loss": 3.83355, "time": 0.56962}
+{"mode": "train", "epoch": 132, "iter": 587, "lr": 0.00242, "memory": 6090, "data_time": 0.30501, "loss_cls": 0.48922, "loss_bbox": 1.78976, "loss_obj": 1.47458, "loss": 3.75355, "time": 0.56229}
+{"mode": "train", "epoch": 133, "iter": 587, "lr": 0.00236, "memory": 6090, "data_time": 0.32437, "loss_cls": 0.48964, "loss_bbox": 1.79251, "loss_obj": 1.45978, "loss": 3.74193, "time": 0.57662}
+{"mode": "train", "epoch": 134, "iter": 587, "lr": 0.00229, "memory": 6090, "data_time": 0.3268, "loss_cls": 0.49107, "loss_bbox": 1.80218, "loss_obj": 1.4636, "loss": 3.75686, "time": 0.57066}
+{"mode": "train", "epoch": 135, "iter": 587, "lr": 0.00223, "memory": 6090, "data_time": 0.31585, "loss_cls": 0.48647, "loss_bbox": 1.77389, "loss_obj": 1.46442, "loss": 3.72478, "time": 0.5759}
+{"mode": "train", "epoch": 136, "iter": 587, "lr": 0.00217, "memory": 6090, "data_time": 0.32544, "loss_cls": 0.48649, "loss_bbox": 1.78063, "loss_obj": 1.43491, "loss": 3.70202, "time": 0.57259}
+{"mode": "train", "epoch": 137, "iter": 587, "lr": 0.0021, "memory": 6090, "data_time": 0.32761, "loss_cls": 0.48912, "loss_bbox": 1.7958, "loss_obj": 1.44617, "loss": 3.73109, "time": 0.5682}
+{"mode": "train", "epoch": 138, "iter": 587, "lr": 0.00204, "memory": 6090, "data_time": 0.32397, "loss_cls": 0.48776, "loss_bbox": 1.78405, "loss_obj": 1.42735, "loss": 3.69916, "time": 0.57777}
+{"mode": "train", "epoch": 139, "iter": 587, "lr": 0.00198, "memory": 6090, "data_time": 0.33639, "loss_cls": 0.48691, "loss_bbox": 1.78341, "loss_obj": 1.42593, "loss": 3.69626, "time": 0.57148}
+{"mode": "train", "epoch": 140, "iter": 587, "lr": 0.00192, "memory": 6090, "data_time": 0.33341, "loss_cls": 0.48403, "loss_bbox": 1.76359, "loss_obj": 1.40184, "loss": 3.64947, "time": 0.57494}
+{"mode": "val", "epoch": 140, "iter": 8331, "lr": 0.00189, "bbox_mAP": 0.431, "bbox_mAP_50": 0.675, "bbox_mAP_75": 0.482, "bbox_mAP_s": 0.216, "bbox_mAP_m": 0.42, "bbox_mAP_l": 0.591, "bbox_mAP_copypaste": "0.431 0.675 0.482 0.216 0.420 0.591"}
+{"mode": "train", "epoch": 141, "iter": 587, "lr": 0.00186, "memory": 6090, "data_time": 0.32229, "loss_cls": 0.48537, "loss_bbox": 1.77688, "loss_obj": 1.41952, "loss": 3.68177, "time": 0.56444}
+{"mode": "train", "epoch": 142, "iter": 587, "lr": 0.0018, "memory": 6090, "data_time": 0.33517, "loss_cls": 0.48116, "loss_bbox": 1.75282, "loss_obj": 1.40305, "loss": 3.63702, "time": 0.57433}
+{"mode": "train", "epoch": 143, "iter": 587, "lr": 0.00175, "memory": 6090, "data_time": 0.32176, "loss_cls": 0.48164, "loss_bbox": 1.75251, "loss_obj": 1.36743, "loss": 3.60158, "time": 0.56916}
+{"mode": "train", "epoch": 144, "iter": 587, "lr": 0.00169, "memory": 6090, "data_time": 0.31086, "loss_cls": 0.48182, "loss_bbox": 1.75244, "loss_obj": 1.37739, "loss": 3.61165, "time": 0.56317}
+{"mode": "train", "epoch": 145, "iter": 587, "lr": 0.00164, "memory": 6090, "data_time": 0.31567, "loss_cls": 0.47816, "loss_bbox": 1.72955, "loss_obj": 1.35069, "loss": 3.5584, "time": 0.56783}
+{"mode": "train", "epoch": 146, "iter": 587, "lr": 0.00158, "memory": 6090, "data_time": 0.32581, "loss_cls": 0.4779, "loss_bbox": 1.73435, "loss_obj": 1.35807, "loss": 3.57032, "time": 0.569}
+{"mode": "train", "epoch": 147, "iter": 587, "lr": 0.00153, "memory": 6090, "data_time": 0.32687, "loss_cls": 0.47641, "loss_bbox": 1.72033, "loss_obj": 1.33543, "loss": 3.53216, "time": 0.57418}
+{"mode": "train", "epoch": 148, "iter": 587, "lr": 0.00148, "memory": 6090, "data_time": 0.3327, "loss_cls": 0.4765, "loss_bbox": 1.72756, "loss_obj": 1.33955, "loss": 3.54361, "time": 0.56968}
+{"mode": "train", "epoch": 149, "iter": 587, "lr": 0.00143, "memory": 6090, "data_time": 0.33743, "loss_cls": 0.47705, "loss_bbox": 1.73286, "loss_obj": 1.31324, "loss": 3.52315, "time": 0.57218}
+{"mode": "train", "epoch": 150, "iter": 587, "lr": 0.00138, "memory": 6090, "data_time": 0.32342, "loss_cls": 0.47534, "loss_bbox": 1.72061, "loss_obj": 1.31394, "loss": 3.50989, "time": 0.56962}
+{"mode": "val", "epoch": 150, "iter": 8331, "lr": 0.00136, "bbox_mAP": 0.434, "bbox_mAP_50": 0.677, "bbox_mAP_75": 0.485, "bbox_mAP_s": 0.217, "bbox_mAP_m": 0.423, "bbox_mAP_l": 0.594, "bbox_mAP_copypaste": "0.434 0.677 0.485 0.217 0.423 0.594"}
+{"mode": "train", "epoch": 151, "iter": 587, "lr": 0.00134, "memory": 6093, "data_time": 0.33629, "loss_cls": 0.47393, "loss_bbox": 1.71149, "loss_obj": 1.3184, "loss": 3.50382, "time": 0.57385}
+{"mode": "train", "epoch": 152, "iter": 587, "lr": 0.00129, "memory": 6093, "data_time": 0.32872, "loss_cls": 0.47335, "loss_bbox": 1.70941, "loss_obj": 1.29791, "loss": 3.48067, "time": 0.57089}
+{"mode": "train", "epoch": 153, "iter": 587, "lr": 0.00124, "memory": 6093, "data_time": 0.34316, "loss_cls": 0.47406, "loss_bbox": 1.71597, "loss_obj": 1.29387, "loss": 3.48391, "time": 0.57682}
+{"mode": "train", "epoch": 154, "iter": 587, "lr": 0.0012, "memory": 6093, "data_time": 0.29978, "loss_cls": 0.47022, "loss_bbox": 1.68761, "loss_obj": 1.27023, "loss": 3.42806, "time": 0.57588}
+{"mode": "train", "epoch": 155, "iter": 587, "lr": 0.00116, "memory": 6093, "data_time": 0.32899, "loss_cls": 0.47115, "loss_bbox": 1.69632, "loss_obj": 1.28572, "loss": 3.45318, "time": 0.57017}
+{"mode": "train", "epoch": 156, "iter": 587, "lr": 0.00112, "memory": 6093, "data_time": 0.32818, "loss_cls": 0.46914, "loss_bbox": 1.68512, "loss_obj": 1.25494, "loss": 3.4092, "time": 0.57438}
+{"mode": "train", "epoch": 157, "iter": 587, "lr": 0.00108, "memory": 6093, "data_time": 0.30262, "loss_cls": 0.46937, "loss_bbox": 1.6883, "loss_obj": 1.2717, "loss": 3.42937, "time": 0.56786}
+{"mode": "train", "epoch": 158, "iter": 587, "lr": 0.00104, "memory": 6093, "data_time": 0.31984, "loss_cls": 0.46538, "loss_bbox": 1.6652, "loss_obj": 1.22542, "loss": 3.356, "time": 0.57021}
+{"mode": "train", "epoch": 159, "iter": 587, "lr": 0.001, "memory": 6093, "data_time": 0.3225, "loss_cls": 0.46726, "loss_bbox": 1.67266, "loss_obj": 1.23449, "loss": 3.3744, "time": 0.58284}
+{"mode": "train", "epoch": 160, "iter": 587, "lr": 0.00096, "memory": 6093, "data_time": 0.30793, "loss_cls": 0.46524, "loss_bbox": 1.66367, "loss_obj": 1.23332, "loss": 3.36224, "time": 0.57557}
+{"mode": "val", "epoch": 160, "iter": 8331, "lr": 0.00095, "bbox_mAP": 0.435, "bbox_mAP_50": 0.676, "bbox_mAP_75": 0.486, "bbox_mAP_s": 0.219, "bbox_mAP_m": 0.424, "bbox_mAP_l": 0.595, "bbox_mAP_copypaste": "0.435 0.676 0.486 0.219 0.424 0.595"}
+{"mode": "train", "epoch": 161, "iter": 587, "lr": 0.00093, "memory": 6093, "data_time": 0.33852, "loss_cls": 0.46844, "loss_bbox": 1.68828, "loss_obj": 1.2305, "loss": 3.38722, "time": 0.57416}
+{"mode": "train", "epoch": 162, "iter": 587, "lr": 0.00089, "memory": 6093, "data_time": 0.34376, "loss_cls": 0.46619, "loss_bbox": 1.67249, "loss_obj": 1.21574, "loss": 3.35443, "time": 0.57489}
+{"mode": "train", "epoch": 163, "iter": 587, "lr": 0.00086, "memory": 6093, "data_time": 0.32369, "loss_cls": 0.46597, "loss_bbox": 1.66949, "loss_obj": 1.21387, "loss": 3.34934, "time": 0.57237}
+{"mode": "train", "epoch": 164, "iter": 587, "lr": 0.00083, "memory": 6093, "data_time": 0.30597, "loss_cls": 0.45981, "loss_bbox": 1.63525, "loss_obj": 1.17938, "loss": 3.27445, "time": 0.57728}
+{"mode": "train", "epoch": 165, "iter": 587, "lr": 0.0008, "memory": 6093, "data_time": 0.32343, "loss_cls": 0.46102, "loss_bbox": 1.64545, "loss_obj": 1.18954, "loss": 3.29601, "time": 0.57364}
+{"mode": "train", "epoch": 166, "iter": 587, "lr": 0.00077, "memory": 6093, "data_time": 0.32076, "loss_cls": 0.46101, "loss_bbox": 1.64099, "loss_obj": 1.1591, "loss": 3.26109, "time": 0.57407}
+{"mode": "train", "epoch": 167, "iter": 587, "lr": 0.00075, "memory": 6093, "data_time": 0.32107, "loss_cls": 0.46051, "loss_bbox": 1.63795, "loss_obj": 1.16255, "loss": 3.26101, "time": 0.57199}
+{"mode": "train", "epoch": 168, "iter": 587, "lr": 0.00072, "memory": 6093, "data_time": 0.34018, "loss_cls": 0.46119, "loss_bbox": 1.64998, "loss_obj": 1.18838, "loss": 3.29955, "time": 0.57045}
+{"mode": "train", "epoch": 169, "iter": 587, "lr": 0.0007, "memory": 6093, "data_time": 0.31758, "loss_cls": 0.4585, "loss_bbox": 1.63134, "loss_obj": 1.16319, "loss": 3.25303, "time": 0.57162}
+{"mode": "train", "epoch": 170, "iter": 587, "lr": 0.00067, "memory": 6093, "data_time": 0.32097, "loss_cls": 0.45892, "loss_bbox": 1.62835, "loss_obj": 1.13956, "loss": 3.22683, "time": 0.57884}
+{"mode": "val", "epoch": 170, "iter": 8331, "lr": 0.00066, "bbox_mAP": 0.436, "bbox_mAP_50": 0.677, "bbox_mAP_75": 0.488, "bbox_mAP_s": 0.217, "bbox_mAP_m": 0.426, "bbox_mAP_l": 0.596, "bbox_mAP_copypaste": "0.436 0.677 0.488 0.217 0.426 0.596"}
+{"mode": "train", "epoch": 171, "iter": 587, "lr": 0.00065, "memory": 6093, "data_time": 0.32132, "loss_cls": 0.45963, "loss_bbox": 1.63538, "loss_obj": 1.15319, "loss": 3.24819, "time": 0.56753}
+{"mode": "train", "epoch": 172, "iter": 587, "lr": 0.00063, "memory": 6093, "data_time": 0.33162, "loss_cls": 0.45951, "loss_bbox": 1.63461, "loss_obj": 1.1372, "loss": 3.23132, "time": 0.57446}
+{"mode": "train", "epoch": 173, "iter": 587, "lr": 0.00061, "memory": 6093, "data_time": 0.3013, "loss_cls": 0.45533, "loss_bbox": 1.60962, "loss_obj": 1.10631, "loss": 3.17127, "time": 0.57283}
+{"mode": "train", "epoch": 174, "iter": 587, "lr": 0.0006, "memory": 6093, "data_time": 0.33233, "loss_cls": 0.45836, "loss_bbox": 1.62907, "loss_obj": 1.13117, "loss": 3.21859, "time": 0.56847}
+{"mode": "train", "epoch": 175, "iter": 587, "lr": 0.00058, "memory": 6093, "data_time": 0.32442, "loss_cls": 0.45882, "loss_bbox": 1.63426, "loss_obj": 1.15725, "loss": 3.25032, "time": 0.57203}
+{"mode": "train", "epoch": 176, "iter": 587, "lr": 0.00057, "memory": 6093, "data_time": 0.31828, "loss_cls": 0.45295, "loss_bbox": 1.60082, "loss_obj": 1.10144, "loss": 3.1552, "time": 0.57169}
+{"mode": "train", "epoch": 177, "iter": 587, "lr": 0.00055, "memory": 6093, "data_time": 0.32322, "loss_cls": 0.45697, "loss_bbox": 1.62067, "loss_obj": 1.12389, "loss": 3.20153, "time": 0.57218}
+{"mode": "train", "epoch": 178, "iter": 587, "lr": 0.00054, "memory": 6093, "data_time": 0.30545, "loss_cls": 0.45157, "loss_bbox": 1.59349, "loss_obj": 1.08138, "loss": 3.12644, "time": 0.57668}
+{"mode": "train", "epoch": 179, "iter": 587, "lr": 0.00053, "memory": 6093, "data_time": 0.30888, "loss_cls": 0.45625, "loss_bbox": 1.61923, "loss_obj": 1.12419, "loss": 3.19967, "time": 0.56805}
+{"mode": "train", "epoch": 180, "iter": 587, "lr": 0.00052, "memory": 6093, "data_time": 0.31789, "loss_cls": 0.45587, "loss_bbox": 1.61625, "loss_obj": 1.10481, "loss": 3.17693, "time": 0.56833}
+{"mode": "val", "epoch": 180, "iter": 8331, "lr": 0.00052, "bbox_mAP": 0.434, "bbox_mAP_50": 0.672, "bbox_mAP_75": 0.485, "bbox_mAP_s": 0.216, "bbox_mAP_m": 0.425, "bbox_mAP_l": 0.594, "bbox_mAP_copypaste": "0.434 0.672 0.485 0.216 0.425 0.594"}
+{"mode": "train", "epoch": 181, "iter": 587, "lr": 0.00051, "memory": 6093, "data_time": 0.30599, "loss_cls": 0.4526, "loss_bbox": 1.5959, "loss_obj": 1.10344, "loss": 3.15194, "time": 0.56999}
+{"mode": "train", "epoch": 182, "iter": 587, "lr": 0.00051, "memory": 6093, "data_time": 0.32217, "loss_cls": 0.45624, "loss_bbox": 1.62007, "loss_obj": 1.10496, "loss": 3.18127, "time": 0.57422}
+{"mode": "train", "epoch": 183, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.31707, "loss_cls": 0.45257, "loss_bbox": 1.59798, "loss_obj": 1.09537, "loss": 3.14592, "time": 0.5733}
+{"mode": "train", "epoch": 184, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.32538, "loss_cls": 0.45391, "loss_bbox": 1.60949, "loss_obj": 1.10332, "loss": 3.16672, "time": 0.56928}
+{"mode": "train", "epoch": 185, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.07037, "loss_cls": 0.4357, "loss_bbox": 1.4929, "loss_obj": 0.88215, "loss_l1": 0.38011, "loss": 3.19087, "time": 0.32868}
+{"mode": "train", "epoch": 186, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.06965, "loss_cls": 0.42642, "loss_bbox": 1.44236, "loss_obj": 0.79714, "loss_l1": 0.36224, "loss": 3.02816, "time": 0.32824}
+{"mode": "train", "epoch": 187, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.06889, "loss_cls": 0.42093, "loss_bbox": 1.41757, "loss_obj": 0.76486, "loss_l1": 0.3517, "loss": 2.95506, "time": 0.32581}
+{"mode": "train", "epoch": 188, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.07008, "loss_cls": 0.4226, "loss_bbox": 1.42663, "loss_obj": 0.75303, "loss_l1": 0.35183, "loss": 2.95409, "time": 0.31604}
+{"mode": "train", "epoch": 189, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.06135, "loss_cls": 0.42082, "loss_bbox": 1.41537, "loss_obj": 0.73293, "loss_l1": 0.3525, "loss": 2.92162, "time": 0.32411}
+{"mode": "train", "epoch": 190, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.06416, "loss_cls": 0.41617, "loss_bbox": 1.39469, "loss_obj": 0.70993, "loss_l1": 0.34462, "loss": 2.86541, "time": 0.32371}
+{"mode": "val", "epoch": 190, "iter": 8331, "lr": 0.0005, "bbox_mAP": 0.453, "bbox_mAP_50": 0.676, "bbox_mAP_75": 0.508, "bbox_mAP_s": 0.224, "bbox_mAP_m": 0.441, "bbox_mAP_l": 0.624, "bbox_mAP_copypaste": "0.453 0.676 0.508 0.224 0.441 0.624"}
+{"mode": "train", "epoch": 191, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.06465, "loss_cls": 0.41749, "loss_bbox": 1.40229, "loss_obj": 0.70373, "loss_l1": 0.34707, "loss": 2.87058, "time": 0.32444}
+{"mode": "train", "epoch": 192, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.07337, "loss_cls": 0.41832, "loss_bbox": 1.4075, "loss_obj": 0.71892, "loss_l1": 0.34684, "loss": 2.89158, "time": 0.32982}
+{"mode": "train", "epoch": 193, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.06651, "loss_cls": 0.41549, "loss_bbox": 1.39277, "loss_obj": 0.69677, "loss_l1": 0.34252, "loss": 2.84755, "time": 0.32283}
+{"mode": "train", "epoch": 194, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.06876, "loss_cls": 0.41436, "loss_bbox": 1.3866, "loss_obj": 0.69283, "loss_l1": 0.34199, "loss": 2.83577, "time": 0.33142}
+{"mode": "train", "epoch": 195, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.05515, "loss_cls": 0.41092, "loss_bbox": 1.37054, "loss_obj": 0.66892, "loss_l1": 0.34205, "loss": 2.79243, "time": 0.33727}
+{"mode": "train", "epoch": 196, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.06874, "loss_cls": 0.41398, "loss_bbox": 1.38525, "loss_obj": 0.69185, "loss_l1": 0.34123, "loss": 2.8323, "time": 0.34515}
+{"mode": "train", "epoch": 197, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.06554, "loss_cls": 0.41068, "loss_bbox": 1.36873, "loss_obj": 0.6617, "loss_l1": 0.33855, "loss": 2.77966, "time": 0.3311}
+{"mode": "train", "epoch": 198, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.07112, "loss_cls": 0.41376, "loss_bbox": 1.38315, "loss_obj": 0.66613, "loss_l1": 0.33774, "loss": 2.80078, "time": 0.32521}
+{"mode": "train", "epoch": 199, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.06142, "loss_cls": 0.41032, "loss_bbox": 1.36622, "loss_obj": 0.66173, "loss_l1": 0.33455, "loss": 2.77283, "time": 0.33171}
+{"mode": "train", "epoch": 200, "iter": 587, "lr": 0.0005, "memory": 6093, "data_time": 0.05826, "loss_cls": 0.40924, "loss_bbox": 1.36016, "loss_obj": 0.66757, "loss_l1": 0.33528, "loss": 2.77224, "time": 0.33796}
+{"mode": "val", "epoch": 200, "iter": 8331, "lr": 0.0005, "bbox_mAP": 0.456, "bbox_mAP_50": 0.669, "bbox_mAP_75": 0.51, "bbox_mAP_s": 0.224, "bbox_mAP_m": 0.441, "bbox_mAP_l": 0.633, "bbox_mAP_copypaste": "0.456 0.669 0.510 0.224 0.441 0.633"}

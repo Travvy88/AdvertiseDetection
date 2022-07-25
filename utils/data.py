@@ -3,6 +3,7 @@ import os
 import cv2
 from matplotlib import pyplot as plt
 import json
+from pathlib import Path
 
 def change_to_one_class(path, label='logo'):
     # сделать в xml один общий класс {label}
@@ -35,7 +36,7 @@ def add_path_to_xml(path):
     tree.write(path)
 
 
-def check_coco_dataset(json_path, idx):
+def check_coco_dataset(json_path, img_prefix,  idx):
     # выводит сэмп из фото по аннотации
     with open(json_path) as json_file:
         data = json.load(json_file)
@@ -45,7 +46,7 @@ def check_coco_dataset(json_path, idx):
     image = data['images'][anno['image_id']]
     file_name = image['file_name']
 
-    img = cv2.imread('openlogo_coco/JPEGImages/' + file_name)
+    img = cv2.imread(str(Path(img_prefix) / Path(file_name)))
     pt1 = (bbox[0], bbox[1])
     pt2 = (bbox[0] + bbox[2], bbox[1] + bbox[3])
 

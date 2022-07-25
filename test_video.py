@@ -11,10 +11,11 @@ def parse():
 
     parser.add_argument("input", type=str, help='Path to video, or strem URL')
     parser.add_argument("output", type=str, help='Path to file for results')
+    parser.add_argument("model", help='Path to cfg')
+    parser.add_argument("weights", help='Path to pth')
+
     parser.add_argument("--render_path", type=str, default='', help='is you need to render -- specify path to new video with bboxes')
-    parser.add_argument("--fps", type=int, default=1, help='out fps')
-    parser.add_argument("--model", default='YOLOv3', help='Path to cfg')
-    parser.add_argument("--weights", default='YOLOv3', help='Path to pth')
+    parser.add_argument("--fps", type=int, default=0, help='out fps')
     parser.add_argument("--batch_size", type=int, default=1, help='samples per gpu')
     parser.add_argument("--workers", type=int, default=1, help='workers per gpu')
     parser.add_argument("--device", type=str, default='cuda', help='cuda or cpu')
@@ -45,7 +46,6 @@ def process_video(video_path, new_fps, model, batch_size, render_path):
         height = video.get(cv2.CAP_PROP_FRAME_HEIGHT)
         video_out = cv2.VideoWriter(
             render_path, cv2.VideoWriter_fourcc(*'mp4v'), new_fps, (int(width), int(height)))
-    print(fps_div)
     frame_count = 0
     batch = []
     predict = {'frames': []}
@@ -86,6 +86,5 @@ if __name__ == '__main__':
                           checkpoint=r"{}".format(args.weights),
                           device=args.device, cfg_options=None)
     model.cfg = cfg
+    print(f'using {args.device}...')
     process_video(args.input, args.fps, model, args.batch_size, args.render_path)
-
-

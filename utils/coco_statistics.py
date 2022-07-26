@@ -1,5 +1,5 @@
 import json
-
+import argparse
 
 def print_coco_statistics(path):
     with open(path) as f:
@@ -35,6 +35,7 @@ def print_coco_statistics(path):
     print(f'{s} small bboxes, {round(s / annos_num *100)}%')
     print(f'{m} medium bboxes, {round(m / annos_num *100)}%')
     print(f'{l} large bboxes, {round(l / annos_num *100)}%')
+    print('-------')
 
 
 if __name__ == '__main__':

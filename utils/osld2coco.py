@@ -18,9 +18,6 @@ def osld2coco_logo(ann_file, out_file):
             height=height,
             width=width))
 
-        bboxes = []
-        labels = []
-        masks = []
         for anno in image:
             x_min, y_min, x_max, y_max = anno[0]
 

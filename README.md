@@ -1,8 +1,10 @@
 # AdvertiseDetection
 
 Параметры тестирования:
+- Обучение на openlogo trainall
+- Валидация на openlogo testall
 - Видео 45 секунд
-- batch size 100
+- Batch size 100
 - На выход 5 fps
 - GPU GTX1050ti
 - CPU i7-7700HQ

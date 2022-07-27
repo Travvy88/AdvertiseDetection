@@ -1,10 +1,10 @@
 
-    python test_video.py ^
+    python utils/inference_video.py ^
     test_videos/вкусно_и_точка.mp4 ^
     out.txt ^
-    experiments/yoloxtiny_416_stdaug_sgd_openlogo_map67/cfg.py ^
-    experiments/yoloxtiny_416_stdaug_sgd_openlogo_map67/best_bbox_mAP_epoch_200.pth ^
+    experiments/yoloxtiny_416_stdaug_sgd200e_openlogo_map68/cfg.py ^
+    experiments/yoloxtiny_416_stdaug_sgd200e_openlogo_map68/logs/best_bbox_mAP_epoch_200.pth ^
     --render_path out.mp4 ^
     --fps 5 ^
-    --batch_size 100
+    --batch_size 1
 

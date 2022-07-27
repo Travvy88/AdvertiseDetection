@@ -36,6 +36,7 @@ def print_coco_statistics(path):
     print(f'{m} medium bboxes, {round(m / annos_num *100)}%')
     print(f'{l} large bboxes, {round(l / annos_num *100)}%')
     print('-------')
+    print()
 
 
 if __name__ == '__main__':

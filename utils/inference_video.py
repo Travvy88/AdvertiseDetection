@@ -3,11 +3,10 @@ from mmcv import Config
 import cv2
 import argparse
 from tqdm.auto import tqdm
-import sys
 
 
 def parse():
-    parser = argparse.ArgumentParser(description='Examination script')
+    parser = argparse.ArgumentParser(description='Test model fps')
 
     parser.add_argument("input", type=str, help='Path to video, or strem URL')
     parser.add_argument("output", type=str, help='Path to file for results')
@@ -17,24 +16,15 @@ def parse():
     parser.add_argument("--render_path", type=str, default='', help='is you need to render -- specify path to new video with bboxes')
     parser.add_argument("--fps", type=int, default=0, help='out fps')
     parser.add_argument("--batch_size", type=int, default=1, help='samples per gpu')
-    parser.add_argument("--workers", type=int, default=1, help='workers per gpu')
     parser.add_argument("--device", type=str, default='cuda', help='cuda or cpu')
     return parser.parse_args()
-
-
-
-def write_pred_dict(result, frame_num, d):
-    d['frames'].append(
-        {'frame_id': frame_num,
-        'bboxes': [res for res in result]}
-    )
 
 
 def process_video(video_path, new_fps, model, batch_size, render_path):
     video = cv2.VideoCapture(video_path)
     fps = video.get(cv2.CAP_PROP_FPS)
     num_frames = int(video.get(cv2.CAP_PROP_FRAME_COUNT))
-    assert new_fps <= fps, 'output fps dhouldnt be higher than ground fps of the input video'
+    assert new_fps <= fps, 'output fps shouldnt be higher than ground fps of the input video'
     if new_fps == 0:
         fps_div = 1
         new_fps = fps
@@ -65,13 +55,13 @@ def process_video(video_path, new_fps, model, batch_size, render_path):
                     batch = []
             frame_count += 1
             pbar.update(1)
-
-    result = inference_detector(model, batch)
-    if render_path:
+    if batch_size > 1:
+        result = inference_detector(model, batch)
         # TODO save bboxes to file
-        for i in range(len(batch)):
-            frame = model.show_result(batch[i], result[i])
-            video_out.write(frame)
+        if render_path:
+            for i in range(len(batch)):
+                frame = model.show_result(batch[i], result[i])
+                video_out.write(frame)
 
     if render_path:
         video_out.release()

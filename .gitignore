@@ -3,3 +3,5 @@ mmdetection
 talisman
 *.mp4
 *.pth
+get_cfg.py
+comand
